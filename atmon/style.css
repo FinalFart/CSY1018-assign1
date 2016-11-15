@@ -66,7 +66,7 @@ color: white;
 .violet {
   padding: 2em;
   text-align: center;
-  background: violet;
+  background: RGBA(127, 0, 255, 255);
   font-family: fantasy;
   color: white;
 }
@@ -74,7 +74,7 @@ color: white;
 .indigo {
   padding: 2em;
   text-align: center;
-  background: indigo;
+  background: RGBA(75, 0, 130, 255);
   font-family: fantasy;
   color: white;
 }
