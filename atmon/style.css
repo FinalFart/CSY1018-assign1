@@ -62,6 +62,15 @@ color: white;
   font-family: fantasy;
   color: white;
 }
+
+.violet {
+  padding: 2em;
+  text-align: center;
+  background: violet;
+  font-family: fantasy;
+  color: white;
+}
+
 .indigo {
   padding: 2em;
   text-align: center;
