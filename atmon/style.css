@@ -51,7 +51,7 @@ color: white;
 .green {
   padding: 2em;
   text-align: center;
-  background: green;
+  
   font-family: fantasy;
   color: white;
     animation: colour4 7s linear infinite;
@@ -68,8 +68,19 @@ color: white;
   42% {
     background: RGBA(127, 0, 255, 255);
   }
+  56% { 
+    background: RGBA(75, 0, 130, 255);
+  }
+  70%{
+    background: red;
+  }
+  84%{
+   background: orange; 
+  }
+  100% {background: yellow;
+  }
 }
-}
+
 .blue {
   padding: 2em;
   text-align: center;
