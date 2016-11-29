@@ -66,10 +66,10 @@ color: white;
     background: blue ;
   }
   42% {
-    background: RGBA(127, 0, 255, 255);
+    background: RGBA(75, 0, 130, 255);
   }
   56% { 
-    background: RGBA(75, 0, 130, 255);
+    background: RGBA(127, 0, 255, 255);
   }
   70%{
     background: red;
