@@ -54,6 +54,21 @@ color: white;
   background: green;
   font-family: fantasy;
   color: white;
+    animation: colour4 7s linear infinite;
+
+}
+@keyframes colour4 {
+
+  14% {
+    background: green;
+  }
+  28%{
+    background: blue ;
+  }
+  42% {
+    background: RGBA(127, 0, 255, 255);
+  }
+}
 }
 .blue {
   padding: 2em;
