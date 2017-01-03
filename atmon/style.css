@@ -7,18 +7,17 @@ body {
     text-align: center;
     font-family: ;
     font-size: 1.5em;
-    color: #69385C;
+
 }
 
 h1 {
 
   color: #;
-
   padding-bottom: 100px;
   padding-left: 20px
 }
 p {
-  color: #69385C;
+  color: white;
 
 }
 
@@ -31,14 +30,48 @@ p {
 }
 
 .foot {
-order: +1;
+order: 2;
 background: #C1AE9F;
 font-size: 0.5em;
 
 }
 
-.fottext{
-  color: white;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.aside {
+    padding: 2em;
+    background: #69385C;
+
+}
+
+.main{
+  padding: 2em;
+  background: #89937C;
+}
+
+@media (max-width: 30em) {
+  .main{
+    flex: 1 0 auto;
+  }
+}
+
+@media  (min-width: 30em){
+  .aside {
+    width: 20%;
+  }
+  .nav{
+    display: block;
+  }
+  .wrapper{
+    flex-direction: row;
+  }
+  .main {
+    flex: 1 1 auto;
+  }
 }
 
 .background
