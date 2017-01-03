@@ -7,31 +7,42 @@ body {
     text-align: center;
     font-family: ;
     font-size: 1.5em;
-    color: #333;
+    color: #69385C;
 }
 
 h1 {
 
-  color: Gold;
-text-align: left;
+  color: #;
+
   padding-bottom: 100px;
   padding-left: 20px
 }
 p {
-  color: Gold;
-  text-align: left;
+  color: #69385C;
+
 }
 
 .nav {
   order: -1;
   padding: 0.75em;
-  background: grey;
-  font-size: 58px;
+  background: #715B64;
+  font-size: 2em;
 
+}
+
+.foot {
+order: +1;
+background: #C1AE9F;
+font-size: 0.5em;
+
+}
+
+.fottext{
+  color: white;
 }
 
 .background
 {
-background-image: url("wire.jpg");
+background-color: #89937C;
 background-size: cover;
 }
