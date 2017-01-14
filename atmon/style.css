@@ -1,203 +1,208 @@
-    body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-    line-height: 100%;
-    text-align: center;
-    font-family: serif;; 
-    font-size: 1.5em;
-}
+        body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+        line-height: 100%;
+        text-align: center;
+        font-family: serif;
+        font-size: 1.5em;
+    }
 
-h1 {
-    color: white;
-    padding-bottom: 100px;
-}
+    h1 {
+        color: white;
+        padding-bottom: 100px;
+    }
 
-p {
-    color: white;
-}
+    p {
+        color: white;
+    }
 
-h2 {
-    color: white;
-    padding-bottom: 10px;
-}
+    h2 {
+        color: white;
+        padding-bottom: 10px;
+    }
 
-.nav {
-    order: -1;
-    padding: 0.75em;
-    background: #8EAEBD;
-    font-size: 2em;
-    transition: background-color 2s;
-}
+    .nav {
+        order: -1;
+        padding: 0.75em;
+        background: #8EAEBD;
+        font-size: 2em;
+        transition: background-color 2s;
+    }
 
-.nav:hover {
-    background-color: #CF6766;
-}
+    .nav:hover {
+        background-color: #CF6766;
+    }
 
-.foot {
-    order: 2;
-    background: #CF6766;
-    font-size: 0.7em;
-}
+    .foot {
+        order: 2;
+        background: #CF6766;
+        font-size: 0.7em;
+    }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-}
-
-.aside {
-    padding: 2em;
-    background: #30415D;
-}
-
-.main {
-    padding: 2em;
-    background: #8EAEBD;
-}
-
-.main2 {
-    padding: 2em;
-    background: #031424;
-    transition: background 2s;
-}
-
-.main2:hover {
-    background: #CF6766;
-}
-
-.main3 {
-    padding: 2em;
-    background: #8EAEBD;
-    transition: background 2s;
-}
-
-.main3:hover {
-    background: #CF6766;
-}
-/*very simple rainbow text animation, when mouse hovers */
-.express {}
-
-.express:hover {
-    color: red;
-    animation: express 3.5s infinite;
-}
-
-@media (max-width: 30em) {
-    .main {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
         flex: 1 0 auto;
     }
-}
 
-@media (min-width: 30em) {
     .aside {
-        width: 20%;
+        padding: 2em;
+        background: #30415D;
     }
-    .nav {
-        display: block;
-    }
-    .wrapper {
-        flex-direction: row;
-    }
+
     .main {
-        flex: 1 1 auto;
+        padding: 2em;
+        background: #8EAEBD;
     }
-}
 
-.background {
-    background-color: #89937C;
-    background-size: cover;
-}
-
-.stretch {
-    border-radius: 50%;
-}
-
-.container1 {
-    position: absolute;
-    left: 30%;
-    top: 500px;
-    transform: translate(-50%, -50%);
-    /* i contain things :) */
-}
-
-.ul {
-    color: : white;
-}
-
-.box {
-    border-style: solid;
-    border-width: 1px;
-    display: block;
-    width: 80px;
-    height: 50px;
-    background-color: #031424;
-    padding: 10px;
-    transition: width 2s, height 2s, font-size 2s, background-color 2s;
-    font-size: 40px;
-    vertical-align: middle;
-    display: table-cell;
-}
-
-.box:hover {
-    width: 160px;
-    height: 100px;
-    font-size: 70px;
-    background-color: #CF6766;
-}
-
-.box2 {
-    border-style: solid;
-    border-width: 1px;
-    display: block;
-    width: 80px;
-    height: 50px;
-    background-color: #031424;
-    padding: 10px;
-    transition: width 2s, height 2s, font-size 2s, background-color 2s;
-    font-size: 40px;
-    vertical-align: middle;
-    display: table-cell;
-}
-
-.box2:hover {
-    width: 160px;
-    height: 100px;
-    font-size: 70px;
-    background-color: #CF6766;
-}
-
-.container2 {
-    position: absolute;
-    left: 45%;
-    top: 500px;
-    transform: translate(-50%, -50%);
-    /* i contain things :) */
-}
-
-@keyframes express {
-    0% {
-      color: red;
+    .main2 {
+        padding: 2em;
+        background: black;
+        transition: background 2s;
     }
-    14% {
-        color: orange;
+
+    .main2:hover {
+        background: #CF6766;
     }
-    28% {
-        color: yellow;
+
+    .main3 {
+        padding: 2em;
+        background: #8EAEBD;
+        transition: background 2s;
     }
-    42% {
-        color: green;
+
+    .main3:hover {
+        background: #CF6766;
     }
-    56% {
-        color: blue;
+
+    .biotitle {
+        background: #CF6766;
     }
-    70% {
-        color: RGBA(75, 0, 130, 255);
+    /*very simple rainbow text animation, when mouse hovers */
+
+    .express {}
+
+    .express:hover {
+        color: red;
+        animation: express 3.5s infinite;
     }
-    84% {
-        color: RGBA(127, 0, 255, 255);
+
+    @media (max-width: 30em) {
+        .main {
+            flex: 1 0 auto;
+        }
     }
-    100% {
-        color: : red;
+
+    @media (min-width: 30em) {
+        .aside {
+            width: 20%;
+        }
+        .nav {
+            display: block;
+        }
+        .wrapper {
+            flex-direction: row;
+        }
+        .main {
+            flex: 1 1 auto;
+        }
     }
+
+    .background {
+        background-color: #89937C;
+        background-size: cover;
+    }
+
+    .stretch {
+        border-radius: 50%;
+    }
+
+    .container1 {
+        position: absolute;
+        left: 30%;
+        top: 500px;
+        transform: translate(-50%, -50%);
+        /* i contain things :) */
+    }
+
+    .ul {
+        color: : white;
+    }
+
+    .box {
+        border-style: solid;
+        border-width: 1px;
+        display: block;
+        width: 80px;
+        height: 50px;
+        background-color: #031424;
+        padding: 10px;
+        transition: width 2s, height 2s, font-size 2s, background-color 2s;
+        font-size: 40px;
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+    .box:hover {
+        width: 160px;
+        height: 100px;
+        font-size: 70px;
+        background-color: #CF6766;
+    }
+
+    .box2 {
+        border-style: solid;
+        border-width: 1px;
+        display: block;
+        width: 80px;
+        height: 50px;
+        background-color: #031424;
+        padding: 10px;
+        transition: width 2s, height 2s, font-size 2s, background-color 2s;
+        font-size: 40px;
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+    .box2:hover {
+        width: 160px;
+        height: 100px;
+        font-size: 70px;
+        background-color: #CF6766;
+    }
+
+    .container2 {
+        position: absolute;
+        left: 45%;
+        top: 500px;
+        transform: translate(-50%, -50%);
+        /* i contain things :) */
+    }
+
+    @keyframes express {
+        0% {
+            color: red;
+        }
+        14% {
+            color: orange;
+        }
+        28% {
+            color: yellow;
+        }
+        42% {
+            color: green;
+        }
+        56% {
+            color: blue;
+        }
+        70% {
+            color: RGBA(75, 0, 130, 255);
+        }
+        84% {
+            color: RGBA(127, 0, 255, 255);
+        }
+        100% {
+            color: : red;
+        }
