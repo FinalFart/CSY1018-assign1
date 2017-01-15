@@ -1,279 +1,281 @@
+/* Jamie Arnold - 16433770 */
+
 body {
-
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  line-height: 100%;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 1.5em;
-  color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    line-height: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: #333;
 }
+
 .nav {
-order: -1;
-padding: 2em;
-background: RGBA(127, 0, 255, 255);
-font-family: fantasy;
-color: white;
-animation: colour1 7s linear infinite;
-
+    order: -1;
+    padding: 2em;
+    background: RGBA(127, 0, 255, 255);
+    font-family: fantasy;
+    color: white;
+    animation: colour1 7s linear infinite;
 }
+
 @keyframes colour1 {
-
-14% {
-background: red;
+    14% {
+        background: red;
+    }
+    28% {
+        background: orange;
+    }
+    42% {
+        background: yellow;
+    }
+    56% {
+        background: green;
+    }
+    70% {
+        background: blue;
+    }
+    84% {
+        background: RGBA(75, 0, 130, 255);
+    }
+    100% {
+        background: RGBA(127, 0, 255, 255);
+    }
 }
-28%{
-background: orange ;
-}
-42% {
-background: yellow;
-}
-56% {
-background: green;
-}
-70%{
-background: blue;
-}
-84%{
-background: RGBA(75, 0, 130, 255);
-}
-100% {background: RGBA(127, 0, 255, 255);
-}
-}
-
 
 .footer {
-  padding: 2em;
-  order: 1;
-  background: rgb(90, 180, 180);
-  text-align: center;
-font-family: fantasy;
+    padding: 2em;
+    order: 1;
+    background: rgb(90, 180, 180);
+    text-align: center;
+    font-family: fantasy;
 }
 
 .wapper {
-  display: flex;
-  flex-direction: column;
-  flex: 1 0 auto;
-  font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    font-family: fantasy;
 }
+
 .main {
-
-  padding: 2em;
-  text-align: center;
-  background: red;
-font-family: fantasy;
-color: white;
-animation: colour2 7s linear infinite;
-
+    padding: 2em;
+    text-align: center;
+    background: red;
+    font-family: fantasy;
+    color: white;
+    animation: colour2 7s linear infinite;
 }
+
 @keyframes colour2 {
-
-14% {
-background: orange;
-}
-28%{
-background: yellow ;
-}
-42% {
-background: green;
-}
-56% {
-background: blue;
-}
-70%{
-background: RGBA(75, 0, 130, 255);
-}
-84%{
-background: RGBA(127, 0, 255, 255);
-}
-100% {background: red;
-}
+    14% {
+        background: orange;
+    }
+    28% {
+        background: yellow;
+    }
+    42% {
+        background: green;
+    }
+    56% {
+        background: blue;
+    }
+    70% {
+        background: RGBA(75, 0, 130, 255);
+    }
+    84% {
+        background: RGBA(127, 0, 255, 255);
+    }
+    100% {
+        background: red;
+    }
 }
 
 .aside {
-  padding: 2em;
-  text-align: center;
-  background: orange;
-  font-family: fantasy;
-color: white; 
-  animation: colour3 7s linear infinite;
-
+    padding: 2em;
+    text-align: center;
+    background: orange;
+    font-family: fantasy;
+    color: white;
+    animation: colour3 7s linear infinite;
 }
+
 @keyframes colour3 {
+    14% {
+        background: yellow;
+    }
+    28% {
+        background: green;
+    }
+    42% {
+        background: blue;
+    }
+    56% {
+        background: RGBA(75, 0, 130, 255);
+    }
+    70% {
+        background: RGBA(127, 0, 255, 255);
+    }
+    84% {
+        background: red;
+    }
+    100% {
+        background: orange;
+    }
+}
 
-14% {
-  background: yellow;
-}
-28%{
-  background: green ;
-}
-42% {
-  background: blue;
-}
-56% {
-  background: RGBA(75, 0, 130, 255);
-}
-70%{
-  background: RGBA(127, 0, 255, 255);
-}
-84%{
- background: red;
-}
-100% {background: orange;
-}
-}
 .green {
-  padding: 2em;
-  text-align: center;
-  background: yellow;
-  font-family: fantasy;
-  color: white;
+    padding: 2em;
+    text-align: center;
+    background: yellow;
+    font-family: fantasy;
+    color: white;
     animation: colour4 7s linear infinite;
-
 }
-@keyframes colour4 {
 
-  14% {
-    background: green;
-  }
-  28%{
-    background: blue ;
-  }
-  42% {
-    background: RGBA(75, 0, 130, 255);
-  }
-  56% {
-    background: RGBA(127, 0, 255, 255);
-  }
-  70%{
-    background: red;
-  }
-  84%{
-   background: orange;
-  }
-  100% {background: yellow;
-  }
+@keyframes colour4 {
+    14% {
+        background: green;
+    }
+    28% {
+        background: blue;
+    }
+    42% {
+        background: RGBA(75, 0, 130, 255);
+    }
+    56% {
+        background: RGBA(127, 0, 255, 255);
+    }
+    70% {
+        background: red;
+    }
+    84% {
+        background: orange;
+    }
+    100% {
+        background: yellow;
+    }
 }
 
 .blue {
-  padding: 2em;
-  text-align: center;
-  background: green;
-  font-family: fantasy;
-  color: white;
-  animation: colour5 7s linear infinite;
-
+    padding: 2em;
+    text-align: center;
+    background: green;
+    font-family: fantasy;
+    color: white;
+    animation: colour5 7s linear infinite;
 }
+
 @keyframes colour5 {
-
-14% {
-  background: blue;
+    14% {
+        background: blue;
+    }
+    28% {
+        background: RGBA(75, 0, 130, 255);
+    }
+    42% {
+        background: RGBA(127, 0, 255, 255);
+    }
+    56% {
+        background: red;
+    }
+    70% {
+        background: orange;
+    }
+    84% {
+        background: yellow;
+    }
+    100% {
+        background: green;
+    }
 }
-28%{
-  background: RGBA(75, 0, 130, 255) ;
-}
-42% {
-  background: RGBA(127, 0, 255, 255);
-}
-56% {
-  background: red;
-}
-70%{
-  background: orange;
-}
-84%{
- background: yellow;
-}
-100% {background: green;
-}
-
-}
-
-
 
 .indigo {
-  padding: 2em;
-  text-align: center;
-  background: blue;
-  font-family: fantasy;
-  color: white;
-  animation: colour7 7s linear infinite;
-
+    padding: 2em;
+    text-align: center;
+    background: blue;
+    font-family: fantasy;
+    color: white;
+    animation: colour7 7s linear infinite;
 }
+
 @keyframes colour7 {
-  14% {
-    background: RGBA(75, 0, 130, 255);
-  }
-  28%{
-    background: RGBA(127, 0, 255, 255) ;
-  }
-  42% {
-    background: red;
-  }
-  56% {
-    background: orange;
-  }
-  70%{
-    background: yellow;
-  }
-  84%{
-   background: green;
-  }
-  100% {background: blue;
-  }
-
+    14% {
+        background: RGBA(75, 0, 130, 255);
+    }
+    28% {
+        background: RGBA(127, 0, 255, 255);
+    }
+    42% {
+        background: red;
+    }
+    56% {
+        background: orange;
+    }
+    70% {
+        background: yellow;
+    }
+    84% {
+        background: green;
+    }
+    100% {
+        background: blue;
+    }
 }
+
 .violet {
-
-  padding: 2em;
-  text-align: center;
-  background: RGBA(75, 0, 130, 255);;
-  font-family: fantasy;
-  color: white;
-  animation: colour6 7s linear infinite;
-
+    padding: 2em;
+    text-align: center;
+    background: RGBA(75, 0, 130, 255);
+    ;
+    font-family: fantasy;
+    color: white;
+    animation: colour6 7s linear infinite;
 }
+
 @keyframes colour6 {
+    14% {
+        background: RGBA(127, 0, 255, 255);
+    }
+    28% {
+        background: red;
+    }
+    42% {
+        background: orange;
+    }
+    56% {
+        background: yellow;
+    }
+    70% {
+        background: green;
+    }
+    84% {
+        background: blue;
+    }
+    100% {
+        background: RGBA(75, 0, 130, 255);
+    }
+}
 
-  14% {
-    background: RGBA(127, 0, 255, 255);
-  }
-  28%{
-    background: red ;
-  }
-  42% {
-    background: orange;
-  }
-  56% {
-    background: yellow;
-  }
-  70%{
-    background: green;
-  }
-  84%{
-   background: blue;
-  }
-  100% {background: RGBA(75, 0, 130, 255);
-  }
-}
 @media (max-width: 30em) {
-  .main {
-    flex: 1 0 auto;
-  }
+    .main {
+        flex: 1 0 auto;
+    }
 }
+
 @media (max-width: 30em) {
-  .nav {
-    display: block;
-  }
-  .wrapper{
-    flex-direction: row;
-  }
-  .main {
-    flex: 1 1 auto;
-  }
-  .aside {
-    width: 20%
-  }
+    .nav {
+        display: block;
+    }
+    .wrapper {
+        flex-direction: row;
+    }
+    .main {
+        flex: 1 1 auto;
+    }
+    .aside {
+        width: 20%
+    }
 }
